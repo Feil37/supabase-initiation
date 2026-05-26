@@ -1,0 +1,23 @@
+{
+  "name": "supabase-initiation",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Feil37/supabase-initiation#readme",
+  "bugs": {
+    "url": "https://github.com/Feil37/supabase-initiation/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Feil37/supabase-initiation.git"
+  },
+  "license": "ISC",
+  "author": "Lucille",
+  "type": "module",
+  "main": "serverExp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
