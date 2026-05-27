@@ -67,15 +67,3 @@ fetch('http://localhost:3000/avis_clients')
 }).then((res)=> {
     renderClientsOpinions(res);
 })
-
-
-fetch('http://localhost:3000/prestations')
-.then(async (response) => {
-    if (!response.ok) {
-        throw new Error('Network response was not ok');
-    }
-    return response.json();
-}).then((res)=> {
-    console.log(res);
-    
-})
